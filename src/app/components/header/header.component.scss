@@ -1,0 +1,24 @@
+$marginesBoczny: 200px;
+$wielkoscTla: 30px;
+
+.header {
+  background-color: #500bf5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: $wielkoscTla 0;
+}
+.logo {
+  display: inline-block;
+  margin-left: $marginesBoczny;
+  margin-right: auto;
+}
+.logo > p {
+  font-size: 25px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.przycisk {
+  margin-right: $marginesBoczny;
+}

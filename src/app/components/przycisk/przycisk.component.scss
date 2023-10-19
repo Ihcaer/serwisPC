@@ -1,0 +1,20 @@
+$przyciskKursor: pointer;
+$przyciskDomyslnaCzcionka: "Roboto", sans-serif;
+
+.domyslny-kolor-przycisku {
+  background-color: #ffffff;
+  white-space: nowrap;
+  cursor: $przyciskKursor;
+  border: none;
+  font-family: $przyciskDomyslnaCzcionka;
+}
+.button-light-blue {
+  background-color: #b3ddea;
+  white-space: nowrap;
+  cursor: $przyciskKursor;
+  border: none;
+  font-size: 25px;
+  padding: 5%;
+  border-radius: 7px;
+  font-family: $przyciskDomyslnaCzcionka;
+}
