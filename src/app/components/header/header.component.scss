@@ -1,5 +1,5 @@
 $marginesBoczny: 200px;
-$wielkoscTla: 30px;
+$wielkoscTla: 25px;
 
 .header {
   background-color: #500bf5;
@@ -18,6 +18,9 @@ $wielkoscTla: 30px;
   font-size: 25px;
   font-weight: 500;
   color: #ffffff;
+}
+.socjale {
+  margin-right: 30px;
 }
 .przycisk {
   margin-right: $marginesBoczny;
