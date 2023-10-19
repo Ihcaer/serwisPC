@@ -1,0 +1,42 @@
+.sekcja1 {
+  width: 100%;
+  background-image: url("../../../assets/images/tlo.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.sekcja1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(30, 128, 255);
+  opacity: 0.7;
+}
+.tekst1 {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+  margin: 150px 1000px 0 200px;
+  overflow: hidden;
+  white-space: normal;
+}
+.sekcja1Naglowek {
+  font-size: 75px;
+  font-weight: 500;
+}
+.sekcja1Tresc {
+  font-size: 25px;
+}
+.sekcja1Przycisk {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  margin: 40px 0 150px 200px;
+}
+.sekcja1TrescPrzycisku {
+  font-size: 20px;
+  padding: 10px;
+}

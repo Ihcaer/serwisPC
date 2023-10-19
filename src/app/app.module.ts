@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { PrzyciskComponent } from './components/przycisk/przycisk.component';
 import { SocjaleComponent } from './components/socjale/socjale.component';
+import { Sekcja1Component } from './components/sekcja1/sekcja1.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { SocjaleComponent } from './components/socjale/socjale.component';
     HeaderComponent,
     PrzyciskComponent,
     SocjaleComponent,
+    Sekcja1Component,
   ],
   imports: [
     BrowserModule,
