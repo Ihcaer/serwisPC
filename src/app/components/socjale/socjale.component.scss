@@ -1,0 +1,21 @@
+$socialeRozmiar: 25px;
+
+.sociale {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.domyslny-kolor-sociali {
+  fill: #df9d5f;
+}
+.white-kolor-sociali {
+  fill: #ffffff;
+  height: $socialeRozmiar;
+  width: $socialeRozmiar;
+  margin: 0 10px;
+}
+.black-kolor-sociali {
+  fill: #000000;
+  height: $socialeRozmiar;
+  width: $socialeRozmiar;
+}
