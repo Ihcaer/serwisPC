@@ -1,0 +1,23 @@
+$aboutMarginesyBoczne: 200px;
+$aboutMarginesyAboutElementy: 30px;
+
+.sekcja2 {
+  background-color: #c6f1ff;
+}
+.about {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 0 $aboutMarginesyBoczne 0 $aboutMarginesyBoczne;
+}
+.aboutTekst {
+  margin-right: $aboutMarginesyAboutElementy;
+}
+.aboutZdj {
+  margin-left: $aboutMarginesyAboutElementy;
+}
+.aboutZdj > img {
+  width: auto;
+  height: 400px;
+  border-radius: 20px;
+}
