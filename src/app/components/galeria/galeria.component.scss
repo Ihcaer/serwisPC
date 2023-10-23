@@ -1,0 +1,42 @@
+$galeriaZaokragleniePrzyciskow: 5px;
+
+.galeria {
+  background-color: #baecfd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.galeriaNapis {
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 80px;
+}
+.galeriaZdjec {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.galeriaPrzycisk {
+  border: none;
+  background-color: #00000000;
+  padding: 17% 0 17% 0;
+  color: #ffffff;
+  font-size: 80px;
+  font-family: "Manrope", sans-serif;
+}
+.galeriaPrzycisk:hover {
+  background-color: #00000030;
+}
+.galeriaPrzycisk.lewy {
+  border-radius: 0 $galeriaZaokragleniePrzyciskow $galeriaZaokragleniePrzyciskow
+    0;
+}
+.galeriaPrzycisk.prawy {
+  border-radius: $galeriaZaokragleniePrzyciskow 0 0
+    $galeriaZaokragleniePrzyciskow;
+}
+.zaokraglenie {
+  border-radius: 15px;
+}
