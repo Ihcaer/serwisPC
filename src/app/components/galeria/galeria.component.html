@@ -1,0 +1,24 @@
+<div class="galeria">
+  <div class="galeriaNapis"><p>Gallery</p></div>
+  <div class="galeriaZdjec">
+    <button
+      (click)="przewinDoPoprzedniegoZdjecia()"
+      class="galeriaPrzycisk lewy"
+    >
+      &lt;
+    </button>
+    <div class="galeriaZdj">
+      <img
+        [src]="galeriaZdjecService.getAktualneZdjecie()"
+        alt="Zdjęcie przestawiające prace serwisu"
+        class="zaokraglenie"
+      />
+    </div>
+    <button
+      (click)="przewinDoNastepnegoZdjecia()"
+      class="galeriaPrzycisk prawy"
+    >
+      &gt;
+    </button>
+  </div>
+</div>
