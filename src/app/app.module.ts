@@ -9,6 +9,7 @@ import { SocjaleComponent } from './components/socjale/socjale.component';
 import { Sekcja1Component } from './components/sekcja1/sekcja1.component';
 import { Sekcja2Component } from './components/sekcja2/sekcja2.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
+import { SekcjaMapaComponent } from './components/sekcja-mapa/sekcja-mapa.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { GaleriaComponent } from './components/galeria/galeria.component';
     Sekcja1Component,
     Sekcja2Component,
     GaleriaComponent,
+    SekcjaMapaComponent,
   ],
   imports: [
     BrowserModule,
