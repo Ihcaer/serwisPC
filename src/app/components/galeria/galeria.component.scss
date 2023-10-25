@@ -18,6 +18,9 @@ $galeriaZaokragleniePrzyciskow: 5px;
   width: 100%;
   justify-content: space-between;
 }
+.zaokraglenie {
+  border-radius: 15px;
+}
 .galeriaPrzycisk {
   border: none;
   background-color: #00000000;
@@ -37,6 +40,19 @@ $galeriaZaokragleniePrzyciskow: 5px;
   border-radius: $galeriaZaokragleniePrzyciskow 0 0
     $galeriaZaokragleniePrzyciskow;
 }
-.zaokraglenie {
-  border-radius: 15px;
+.galeriaKropki {
+  justify-content: center;
+  margin-top: -80px;
+  font-size: 100px;
+}
+.galeriaKropka {
+  cursor: pointer;
+  color: #000000;
+  word-spacing: -20px;
+}
+.galeriaKropka:hover {
+  -webkit-text-stroke: 2px #096bff;
+}
+.galeriaKropkiPodswietlenie {
+  -webkit-text-stroke: 2px #777777;
 }

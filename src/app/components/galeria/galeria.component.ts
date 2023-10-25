@@ -7,6 +7,8 @@ import { GaleriaZdjecService } from 'src/app/services/galeria-zdjec.service';
   styleUrls: ['./galeria.component.scss']
 })
 export class GaleriaComponent {
+  galeriaKropki = '.';
+
   constructor(protected galeriaZdjecService: GaleriaZdjecService) { }
 
   przewinDoPoprzedniegoZdjecia() {
@@ -15,5 +17,9 @@ export class GaleriaComponent {
 
   przewinDoNastepnegoZdjecia() {
     this.galeriaZdjecService.przewinDoNastepnegoZdjecia();
+  }
+  galeriaKropkiKlikniecie(index: number) {
+    this.galeriaZdjecService.galeriaKropkiPrzeniesienie(index);
+    this.galeriaZdjecService.ustawIndexDoZmiany(index);
   }
 }

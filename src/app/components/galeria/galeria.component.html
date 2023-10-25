@@ -21,4 +21,19 @@
       &gt;
     </button>
   </div>
+  <div class="galeriaKropki">
+    <span *ngFor="let zdjecie of galeriaZdjecService.zdjecia; let i = index">
+      <span
+        class="galeriaKropka"
+        id="galeriaKropka"
+        (click)="galeriaKropkiKlikniecie(i)"
+        [ngClass]="{
+          galeriaKropkiPodswietlenie:
+            i === galeriaZdjecService.pobierzIndexDoZmiany()
+        }"
+      >
+        {{ galeriaKropki }}
+      </span>
+    </span>
+  </div>
 </div>
