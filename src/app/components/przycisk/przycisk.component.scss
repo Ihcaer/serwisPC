@@ -19,6 +19,9 @@ $przyciskDomyslnaCzcionka: "Roboto", sans-serif;
   font-family: $przyciskDomyslnaCzcionka;
   font-weight: 100;
 }
+.button-light-blue:hover {
+  background-color: #ffffff;
+}
 .button-brighter-blue {
   background-color: #c0edfb;
   white-space: nowrap;
@@ -29,4 +32,7 @@ $przyciskDomyslnaCzcionka: "Roboto", sans-serif;
   border-radius: 7px;
   font-family: $przyciskDomyslnaCzcionka;
   font-weight: 100;
+}
+.button-brighter-blue:hover {
+  background-color: #ffffff;
 }
