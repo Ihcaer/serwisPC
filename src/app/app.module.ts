@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +11,7 @@ import { Sekcja1Component } from './components/sekcja1/sekcja1.component';
 import { Sekcja2Component } from './components/sekcja2/sekcja2.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { SekcjaMapaComponent } from './components/sekcja-mapa/sekcja-mapa.component';
+import { StopkaComponent } from './components/stopka/stopka.component';
 
 @NgModule({
   declarations: [
@@ -21,10 +23,12 @@ import { SekcjaMapaComponent } from './components/sekcja-mapa/sekcja-mapa.compon
     Sekcja2Component,
     GaleriaComponent,
     SekcjaMapaComponent,
+    StopkaComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

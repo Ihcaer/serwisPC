@@ -36,3 +36,17 @@ $przyciskDomyslnaCzcionka: "Roboto", sans-serif;
 .button-brighter-blue:hover {
   background-color: #ffffff;
 }
+.button-brighter-blue-form {
+  background-color: #c0edfb;
+  white-space: nowrap;
+  cursor: $przyciskKursor;
+  border: none;
+  color: #0f2f57;
+  font-size: 16px;
+  font-family: $przyciskDomyslnaCzcionka;
+  border-radius: 10px;
+  padding: 15px 60px;
+}
+.button-brighter-blue-form:hover {
+  background-color: #ffffff;
+}
