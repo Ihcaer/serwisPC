@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./sekcja1.component.scss']
 })
 export class Sekcja1Component {
-  tloPath = 'assets/images/tlo.jpg';
+  tloPath = 'assets/images/tlo.webp';
 
   handleButtonClick() { }
 }

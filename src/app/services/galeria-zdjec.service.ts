@@ -4,8 +4,8 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class GaleriaZdjecService {
-  public zdjecia: string[] = ['../../../assets/images/galeria/galeria1.jpg', '../../../assets/images/galeria/galeria2.jpg', '../../../assets/images/galeria/galeria3.jpg',
-    '../../../assets/images/galeria/galeria4.jpg', '../../../assets/images/galeria/galeria5.jpg'];
+  public zdjecia: string[] = ['../../../assets/images/galeria/galeria1.webp', '../../../assets/images/galeria/galeria2.webp', '../../../assets/images/galeria/galeria3.webp',
+    '../../../assets/images/galeria/galeria4.webp', '../../../assets/images/galeria/galeria5.webp'];
   private aktualneZdjecieIndex: number = 0;
 
   indexDoZmiany: number = 0;
