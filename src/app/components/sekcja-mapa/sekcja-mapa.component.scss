@@ -19,6 +19,24 @@
   color: #6b8289;
 }
 .mapa {
-  margin-top: 50px;
   margin: 80px 0 80px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .sekcjaMapa {
+    background-color: #baecfd;
+    flex-direction: column;
+  }
+  .mapaNapisy {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .mapa {
+    margin: 20px 0 0 0;
+    display: none;
+  }
+  #map {
+    width: 400px;
+    height: 200px;
+  }
 }

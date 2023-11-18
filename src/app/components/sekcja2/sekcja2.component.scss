@@ -73,8 +73,8 @@ $aboutMarginesGorny: 70px;
   color: #ffffff;
   padding: 10px;
   border-radius: 0 0 25px 25px;
-  width: 96%;
-  height: 25%;
+  width: 480px;
+  height: 125px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,4 +94,44 @@ $aboutMarginesGorny: 70px;
   font-size: 25px;
   color: #525252;
   margin-bottom: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    margin: 0;
+  }
+  .aboutTekst {
+    margin: 10px 20px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutUs2 {
+    margin-bottom: 10px;
+  }
+  .aboutUs3 {
+    margin-top: 10px;
+  }
+  .aboutZdj {
+    display: none;
+  }
+  .servicesZdjTekst > img {
+    width: 350px;
+    height: 200px;
+  }
+  .servicesTekst {
+    width: 330px;
+    height: 70px;
+    font-size: 30px;
+  }
+  .opinie {
+    margin: 40px 10px 0 10px;
+  }
+  .trescOpinii {
+    font-size: 20px;
+  }
+  .opiniodawca {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
 }

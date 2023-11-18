@@ -40,3 +40,19 @@
   font-size: 20px;
   padding: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .tekst1 {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .sekcja1Przycisk {
+    margin: 40px 0 0 0;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+  }
+}

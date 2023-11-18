@@ -25,3 +25,15 @@ $wielkoscTla: 25px;
 .przycisk {
   margin-right: $marginesBoczny;
 }
+
+@media only screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 20px;
+  }
+  .socjale {
+    display: none;
+  }
+}

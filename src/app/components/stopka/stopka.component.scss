@@ -86,3 +86,45 @@
   margin-right: 260px;
   display: flex;
 }
+
+@media only screen and (max-width: 600px) {
+  .formularz {
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 20px;
+  }
+  .formularzWlasciwy {
+    max-width: 400px;
+    order: 2;
+  }
+  .formularzDane {
+    flex-wrap: wrap;
+  }
+  .formularzPrzycisk {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .formularzDane {
+    display: flex;
+    gap: 5px;
+  }
+  .formularzImie,
+  .formularzEmail {
+    width: 100%;
+  }
+  .formularzOpis {
+    order: 1;
+    align-items: center;
+    margin: 0 10px 0 10px;
+  }
+  .dolnaStopka {
+    margin: 30px 0 15px 0;
+  }
+  .stopkaLogo {
+    margin-left: 10px;
+  }
+  .sociale {
+    margin-left: auto;
+    margin-right: 5px;
+  }
+}
