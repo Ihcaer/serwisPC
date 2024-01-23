@@ -94,8 +94,8 @@
     margin-top: 20px;
   }
   .formularzWlasciwy {
-    max-width: 400px;
     order: 2;
+    width: 100%;
   }
   .formularzDane {
     flex-wrap: wrap;
@@ -114,8 +114,8 @@
   }
   .formularzOpis {
     order: 1;
-    align-items: center;
-    margin: 0 10px 0 10px;
+    /*align-items: center;
+    margin: 0 10px 0 10px;*/
   }
   .dolnaStopka {
     margin: 30px 0 15px 0;

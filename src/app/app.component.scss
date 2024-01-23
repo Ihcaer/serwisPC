@@ -1,23 +1,21 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
+body {
+  width: 100%;
+}
+
 .all {
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   body {
     margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+    //padding: 0;
   }
   .galeria {
     display: none;
   }
-  /*.all {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    min-width: auto;
-  }*/
 }
